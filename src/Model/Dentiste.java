@@ -11,6 +11,6 @@ package Model;
  */
 public class Dentiste extends Employé {
     private String login;
-    
+   
     
 }
