@@ -16,8 +16,9 @@ import java.util.logging.Logger;
  * @author Abdelkrim
  */
 public class Connexion {
-     public Connection seConnecter()
-    {Connection Conn=null;
+   
+    public Connection seConnecter()
+     { Connection Conn=null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Conn= DriverManager.getConnection("jdbc:mysql://localhost:3306/GestClick","root","");
